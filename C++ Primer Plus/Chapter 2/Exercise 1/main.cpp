@@ -1,6 +1,11 @@
-#include <iostream>
+/**
+ * Write a C++ program that displays your name and address
+ * (or if you value your privacy, a fictitious name and address).
+ */
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
+
+int main()
+{
+    /// \todo implement exercise
     return 0;
 }
