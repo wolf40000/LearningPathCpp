@@ -4,8 +4,19 @@
  */
 
 
+#include <iostream>
+
+
 int main()
 {
-    /// \todo implement exercise
+    double furlong{};
+
+    std::cout << "Furlongs: ";
+    std::cin >> furlong;
+
+    double yards{furlong * 220};
+
+    std::cout << "Yards:" << yards << std::endl;
+
     return 0;
 }

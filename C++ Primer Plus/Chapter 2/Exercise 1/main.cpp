@@ -4,8 +4,13 @@
  */
 
 
+#include <iostream>
+
+
 int main()
 {
-    /// \todo implement exercise
+    std::cout << "Name: Some name" << std::endl;
+    std::cout << "Address: Some address" << std::endl;
+
     return 0;
 }
